@@ -4,15 +4,18 @@
 
 This repository contains the technical development of my Bachelor's Thesis (TFG), focused on using Deep Learning (Multi-Layer Perceptrons) to forecast solar flare events using data from the GOES mission.
 
-## Methodology: 4-Hour Predictive Window
-
-The model is designed to perform "short-term forecasting." By inputting the **4 hours of solar data immediately preceding a potential flare**, the MLP learns to identify magnetic precursors and atmospheric conditions that lead to an eruption. This temporal window is critical for providing actionable space weather alerts.
-
-![example_flares_sample](example_flares_samples.png)
-
 ## About this Project
 
 I created this resource because I am passionate about sharing my knowledge and teaching others. This repository is designed to explain the experimental process of space weather forecasting—moving from raw satellite records to binary classification models. It serves as a comprehensive guide on how to handle imbalanced physical data and evaluate different training strategies.
+
+## Methodology: 4-Hour Predictive Window
+
+The model implements a short-term forecasting approach. It processes a **4-hour window of solar activity data** to predict whether a flare will occur **immediately after that period** and, if so, what its classification will be.
+
+* **Input:** 4 hours of pre-event solar data.
+* **Output:** Prediction of the flare class (No-flare, B, C, M, or X) following the observed window.
+
+![example_flares_sample](example_flares_samples.png)
 
 ## Methodology: Training Strategies
 

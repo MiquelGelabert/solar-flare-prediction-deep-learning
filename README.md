@@ -4,6 +4,8 @@
 
 This repository contains the technical development of my Bachelor's Thesis (TFG), focused on using Deep Learning (Multi-Layer Perceptrons) to forecast solar flare events using data from the GOES mission.
 
+![example_flares_sample](example_flares_samples.png)
+
 ## About this Project
 
 I created this resource because I am passionate about sharing my knowledge and teaching others. This repository is designed to explain the experimental process of space weather forecasting—moving from raw satellite records to binary classification models. It serves as a comprehensive guide on how to handle imbalanced physical data and evaluate different training strategies.
